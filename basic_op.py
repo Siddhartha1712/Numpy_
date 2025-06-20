@@ -36,3 +36,5 @@ print("Sqrt of a:\n",np.sqrt(a))
 print("Sum of array a:",np.sum(a))
 #Transpose of array 
 print("Transpose of array a:\n",a.T)
+#Dot multiplication
+print("Dot product of :\n",np.dot(a,b))
