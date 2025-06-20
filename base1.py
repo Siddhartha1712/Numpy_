@@ -12,6 +12,8 @@ print("Array 2",arr2)
 arr3 = np.array((1,1,1))
 print("Array 3",arr3)
 
+print("\n______________________________________\n")
+
 #Accessing and slicing 
 #arr[start_row:end_row, start_col:end_col:step]
 
