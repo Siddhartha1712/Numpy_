@@ -30,6 +30,10 @@ print(arr6)
 arr7 = np.zeros([6,6],dtype=np.int32)
 print(arr7)
 
+#np.full
+arr8 = np.full([4,5],7)
+print(arr8)
+
 print("\n__________________________________________________\n")
 
 #Attributes
@@ -38,3 +42,16 @@ print("Dimesion: ",arr6.ndim)
 print("Size: ",arr6.size)
 print("Data Type: ",arr6.dtype)
 print("Item Size: ",arr6.itemsize)
+
+print("\n__________________________________________________\n")
+
+#Random 
+arr9 = np.random.rand(5,6)
+print(arr9)
+
+arr10 = np.random.randint(10,100,[5,5])
+print(arr10)
+
+#identity matrix
+arri = np.eye(5)
+print(arri)
