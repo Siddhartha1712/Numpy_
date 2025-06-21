@@ -55,3 +55,10 @@ b = np.linspace(5,25,9,dtype=np.int32).reshape(3,3)
 
 print("Axis 0 Stack:\n",np.stack((a,b),axis=0))
 print("Axis 1 Stack:\n",np.stack((a,b),axis=1))
+
+#Reshape 
+
+a = np.linspace(10,50,25,dtype=np.int32)
+print("Original array a:\n",a)
+a = a.reshape(5,5)
+print("Reshaped array of 5*5:\n",a)
